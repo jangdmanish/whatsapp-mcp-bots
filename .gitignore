@@ -1,0 +1,29 @@
+####MCP client gitignore####
+.env
+node_modules/
+dist/
+build
+# OS generated files
+.DS_Store
+Thumbs.db
+.roo
+./src/models/
+
+####MCP server gitignore####
+src/mcp-server/node_modules/
+# Build output
+src/mcp-server/dist/
+# Logs
+src/mcp-server/*.log
+src/mcp-server/wa-logs.txt
+src/mcp-server/mcp-logs.txt
+src/mcp-server/qr_whatsapp_mcp.png
+# Baileys authentication data (IMPORTANT!)
+src/mcp-server/auth_info/
+# SQLite Database (keep data local)
+src/mcp-server/data/
+src/mcp-server/.env
+# OS generated files
+src/mcp-server/.DS_Store
+src/mcp-server/Thumbs.db
+src/mcp-server/.roo
